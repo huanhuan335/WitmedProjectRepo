@@ -1,0 +1,9 @@
+spring:
+  ###### 配置开启 Spring Boot Bean 的 Override 机制
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    ###### 配置连接注册中心地址
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
