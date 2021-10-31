@@ -78,7 +78,7 @@ public class ResponseVO<E> implements Serializable {
 	 * @param e
 	 * @return
 	 */
-	public static ResponseVO getErrorResponseVO(Exception e) {
+	public static ResponseVO getExceptionResponseVO(Exception e) {
 		return new ResponseVO(ResponseCodeEnum.RESPONSE_CODE_EXCEPTION.getCode(), e.getMessage());
 	}
 }

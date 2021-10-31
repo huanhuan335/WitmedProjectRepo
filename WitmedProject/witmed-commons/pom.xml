@@ -30,6 +30,13 @@
 		</dependency>
 		<!-- 配置 Spring Cloud Starter OpenFeign 依赖 [END] -->
 
+		<!-- 配置 Spring Boot Starter Data Redis 依赖 [BEGIN] -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+		<!-- 配置 Spring Boot Starter Data Redis 依赖 [END] -->
+
 		<!-- 配置 SpringFox Boot Starter 依赖 [BEGIN] -->
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -45,5 +52,13 @@
 			<version>${java-jwt.version}</version>
 		</dependency>
 		<!-- 配置 Java JWT 依赖 [END] -->
+
+		<!-- 配置 Hutool All 依赖 [BEGIN] -->
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>${hutool-all.version}</version>
+		</dependency>
+		<!-- 配置 Hutool All 依赖 [END] -->
 	</dependencies>
 </project>
