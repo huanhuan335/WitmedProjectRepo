@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: witmed-commons
+  profiles:
+    active: commons
